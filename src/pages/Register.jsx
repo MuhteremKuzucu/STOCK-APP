@@ -86,7 +86,6 @@ const Register = () => {
             }}
             validationSchema={SignupSchema}
             onSubmit={(values,actions) => {
-              console.log(values);
               register(values)
               // actşons değeri formikden gelen metodları içerir , resetForm, setSubmitting,...
               // Formun text alanaları temizlenmesi için resetForm
